@@ -1,6 +1,7 @@
-﻿class Program
+﻿using System;
+class Program
 {
-    static void main(string[] args)
+    static void Main(string[] args)
     {
         Console.Write("Ingresa la cantidad de operaciones que desea realizar: ");
         int cantidad = int.Parse(Console.ReadLine());
@@ -39,7 +40,6 @@
                 {
                     Console.WriteLine("El numero a dividir debe ser diferente de 0");   
                 }
-        
             }
             else
             {
